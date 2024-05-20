@@ -93,13 +93,13 @@
         <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
         <script>
         var options = {
-            "key": "rzp_test_JKWa68bWdxoOLr"
-            "amount": "50000", 
+            "key":"rzp_test_SWTdB3x2oRf9FH",
+            "amount": "5000", 
             "currency": "INR",
             "name": "Acme Corp", 
             "description": "Test Transaction",
             "image": "https://example.com/your_logo",
-            "order_id":  "order_OCgKwu7wwonuWX", 
+            "order_id":  "order_OCsRLSULg3Ls3A", 
             "handler": function (response){
                 alert(response.razorpay_payment_id);
                 alert(response.razorpay_order_id);
