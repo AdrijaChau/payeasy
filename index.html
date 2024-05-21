@@ -1,0 +1,40 @@
+<html>
+  <link rel="stylesheet" href="./style.css">
+<head>
+    <title>PayEasy</title>
+    <link rel="icon" type="image/x-icon" href="/logo.png">
+</head>
+<body>
+  <nav class="navbar">
+    <h1 class="logo">PayEasy</h1>
+    <ul class="nav-links">
+      <li class="active"><a href="#"></a>Home</li>
+      <li><a href="#"></a>Donations</li>
+      <li><a href="#"></a>Money Orders</li>
+      <li><a href="#"></a>About Us</li>
+      <li class="ctn"><a href="#"></a>Contact</li>
+    </ul>
+    <img src="menu-btn.png" alt="menu" class="menu-btn">
+  </nav>
+  <header>
+    <div class="header-content">
+      <h2>One step for money transaction</h2>
+      <div class="line"></div>
+      <h1>Now easy to use Credit Card,Net Banking and UPI.</h1>
+      <a href="payment.html" class="ctn">Donate</a>
+    </div>
+  </header>
+  <section class="footer">
+    <p>Sector-V, Kolkata 700102, Kolkata, INDIA | Phone: 95085-47492 | Email: payEasy@ltd.in</p>
+    <p>Copyright ©️ 2024 PayEasy</p>
+  </section>
+  <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+      navlinks.classList.toggle('mobile-menu')
+    })
+  </script>
+</body>
+</html>
